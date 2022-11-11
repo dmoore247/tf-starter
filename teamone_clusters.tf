@@ -7,6 +7,7 @@ data "databricks_spark_version" "latest_lts" {
 }
 
 resource "databricks_cluster" "shared_autoscaling" {
+  depends_on = [databricks_mws_workspaces.this]
   cluster_name            = "Shared Autoscaling"
   spark_version           = data.databricks_spark_version.latest_lts.id
   node_type_id            = data.databricks_node_type.smallest.id
