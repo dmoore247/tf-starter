@@ -7,5 +7,5 @@ variable "host" {
 
 variable "token" {
   type        = string
-  description = "PAT token for the workspace"
+  description = "PAT token for the workspace. Log into workspace as admin and create a Personal Access Token under 'user settings'"
 }
