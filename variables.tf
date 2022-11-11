@@ -12,3 +12,8 @@ variable "databricks_account_id" {
   type        = string
   description = "Databricks Customer Account ID guid"
 }
+
+variable "host" {
+  type        = string
+  description = "Workspace host url including https"
+}
