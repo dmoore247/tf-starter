@@ -4,10 +4,6 @@ terraform {
       source  = "databricks/databricks"
       version = "1.6.5"
     }
-    aws = {
-      source = "hashicorp/aws"
-      version = "3.49.0"
-    }
   }
 }
 
