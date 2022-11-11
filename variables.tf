@@ -8,12 +8,7 @@ variable "databricks_account_password" {
   description = "Databricks Account password"
 }
 
-variable "host" {
-  type        = string
-  description = "Databricks Workspace URL"
-}
-
-variable "account_id" {
+variable "databricks_account_id" {
   type        = string
   description = "Databricks Customer Account ID guid"
 }
