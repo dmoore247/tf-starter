@@ -4,7 +4,7 @@ Terraform Starter Project using Terraform Cloud and the Databricks provider
 ## Purpose
 Demonstrate a simple provider to add one team's workload to an existing workspace using Terraform cloud
 
-## Setup Terraform Cloud and build a simple cluster
+## Terraform Cloud setup and build a simple cluster
 1. Fork this repository
 2. Sign in or signup at https://www.terraform.io/
     -  Select "Version control workflow"
