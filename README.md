@@ -9,10 +9,10 @@ Demonstrate a simple provider to add one team's workload to an existing workspac
 2. Sign in or signup at https://www.terraform.io/
     -  Select "Version control workflow"
     -  Connect to a version control provider, select GitHub
-        -    add \<your github id\>/tf-starter repo
+        -    add `<your github id>/tf-starter` repo
     -  Configure settings
     -  Create workspace
-    -  Edit cloud.tf in this repo to match your Terraform workspace name and organization id
+    -  Edit `cloud.tf` in this repo to match your Terraform workspace name and organization id
 3. Go to "Workspaces -> <your workspace> -> Settings -> Variables
     -  Add variable "DATABRICKS_HOST" and your workspace url as the Value, set variable category to "Environment variable"
     -  Jump over to your Databricks workspace -> User Name -> User Settings -> Access Tokens -> Generate new token -> Copy token value
