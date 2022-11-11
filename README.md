@@ -4,7 +4,7 @@ Terraform Starter Project using Terraform Cloud and the Databricks provider
 ## Purpose
 Demonstrate a simple provider to add one team's workload to an existing workspace using Terraform cloud
 
-## Terraform Cloud setup and build a simple cluster
+## Terraform Cloud setup and build
 1. Fork this repository
 2. Sign in or signup at https://www.terraform.io/
     -  Select "Version control workflow"
@@ -24,7 +24,7 @@ Demonstrate a simple provider to add one team's workload to an existing workspac
 6. If needed, click on button to *Apply* changes
 7. You should now have a new cluster in your Databricks workspace.
 
-## Changing Databricks resources and configuration
+### Changing Databricks resources and configuration
 1. Change code in github, 
     -  Commit to a new branch,
     -  Create Pull Request
@@ -32,3 +32,13 @@ Demonstrate a simple provider to add one team's workload to an existing workspac
     -  If workspace is set correctly, the plan phase will automatically start and run. 
 2. Click on the Apply button to complete the update.
 
+
+## Terraform command line setup and build
+1. Fork this repository
+2. git clone `<cloned repo>`
+3. Remove `terraform-cloud.tf`
+4. Run `terraform plan`
+5. Review output of planning phase
+6. Run `terraform apply`
+7. Commit changes
+8. Push changes to GitHub
