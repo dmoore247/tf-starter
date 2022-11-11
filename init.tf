@@ -19,7 +19,7 @@ provider "aws" {
 // alias = "mws" instructs Databricks to connect to https://accounts.cloud.databricks.com, to create
 // a Databricks workspace that uses the E2 version of the Databricks on AWS platform.
 // See https://registry.terraform.io/providers/databricks/databricks/latest/docs#authentication
-provider "databricks" {
+provider "databricks_mws_workspaces" {
   alias    = "mws"
   host     = var.host
   username = var.databricks_account_username
