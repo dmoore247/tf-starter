@@ -14,13 +14,21 @@ Demonstrate a simple provider to add one team's workload to an existing workspac
     -  Create workspace
     -  Edit cloud.tf in this repo to match your Terraform workspace name and organization id
 3. Go to "Workspaces -> <your workspace> -> Settings -> Variables
-    -  Add variable "host" and your workspace url as the Value
+    -  Add variable "DATABRICKS_HOST" and your workspace url as the Value, set variable category to "Environment variable"
     -  Jump over to your Databricks workspace -> User Name -> User Settings -> Access Tokens -> Generate new token -> Copy token value
-    -  Add variable "token" and paste the token value into the "Value" field. Click "sensitive"
+    -  Add variable "DATABRICKS_TOKEN" and paste the token value into the "Value" field. Click "sensitive", set variable category to "Evnironment variable"
 4. Go to "Workspaces" select your workspace and click "Actions" -> "Start new run"
     -  Choose run type "Plan and apply (standard)"
     -  Click "Start run"
 5. Select the run, click on "See details"
-6. Change code in github, commit. If workspace is set correctly, the plan phase will automatically run. 
-7. Click on the Apply button to complete the update.
-8. You should now have a new cluster in your Databricks workspace.
+6. If needed, click on button to *Apply* changes
+7. You should now have a new cluster in your Databricks workspace.
+
+## Changing Databricks resources and configuration
+1. Change code in github, 
+    -  Commit to a new branch,
+    -  Create Pull Request
+    -  Merge changes into main branch. 
+    -  If workspace is set correctly, the plan phase will automatically start and run. 
+2. Click on the Apply button to complete the update.
+
