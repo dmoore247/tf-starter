@@ -21,7 +21,7 @@ provider "aws" {
 // See https://registry.terraform.io/providers/databricks/databricks/latest/docs#authentication
 provider "databricks" {
   alias    = "mws"
-  host     = "https://accounts.cloud.databricks.com"
+  host     = var.host
   username = var.databricks_account_username
   password = var.databricks_account_password
 }
