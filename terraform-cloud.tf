@@ -1,6 +1,6 @@
-# required by Hashicorp's Terraform Cloud. Align organization and workspaces to your setup in Terraform Cloud.
+# Required by Hashicorp's Terraform Cloud. 
 #
-# Change organization and workspace name to match your own
+# Align organization and workspaces to your setup in Terraform Cloud.
 #
 
 terraform {
