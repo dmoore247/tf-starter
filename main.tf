@@ -1,6 +1,4 @@
-
 terraform {
-
   required_version = ">= 0.13"
 
   required_providers {
@@ -13,9 +11,4 @@ terraform {
       version = "~> 3.0"
     }
   }
-
-  backend "s3" {
-    encrypt = true
-  }
-
 }
