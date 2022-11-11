@@ -1,5 +1,5 @@
 # tf-starter
-Terraform Starter Project using TF Cloud
+Terraform Starter Project using Terraform Cloud and the Databricks provider
 
 ## Purpose
 Demonstrate a simple provider to add one team's workload to an existing workspace using Terraform cloud
