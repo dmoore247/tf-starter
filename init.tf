@@ -17,4 +17,5 @@ terraform {
 // See https://registry.terraform.io/providers/databricks/databricks/latest/docs#authentication
 provider "databricks" {
   host=var.host
+  token=var.token
 }
