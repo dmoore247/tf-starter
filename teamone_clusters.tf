@@ -20,7 +20,7 @@ resource "databricks_cluster" "shared_autoscaling" {
     max_workers = 10
   }
   
-  custom_tags = {
-    "Team" = "TeamOne"
+  custom_tags = {    # Please use all lowercase tag names
+    "team" = "TeamOne"
   }
 }
