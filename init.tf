@@ -16,4 +16,5 @@ terraform {
 // a Databricks workspace that uses the E2 version of the Databricks on AWS platform.
 // See https://registry.terraform.io/providers/databricks/databricks/latest/docs#authentication
 provider "databricks" {
+  host=var.host
 }
