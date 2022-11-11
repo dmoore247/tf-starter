@@ -1,10 +1,8 @@
 data "databricks_node_type" "smallest" {
-  depends_on = [databricks.this]
   local_disk = true
 }
 
 data "databricks_spark_version" "latest_lts" {
-  depends_on = [databricks.this]
   long_term_support = true
 }
 
