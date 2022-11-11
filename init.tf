@@ -11,8 +11,5 @@ terraform {
   }
 }
 
-// Initialize databricks provider, prompting for host and Personal Access Token
-provider "databricks" {
-  host=var.host
-  token=var.token
-}
+// Initialize databricks provider; Use DATABRICKS_HOST and DATABRICKS_TOKEN for authentication
+provider "databricks" { }
