@@ -22,3 +22,8 @@ variable "aws_region" {
   type        = string
   description = "Workspace host url including https"
 }
+
+variable "workspace_name" {
+  type        = string
+  description = "Workspace host url including https"
+}
