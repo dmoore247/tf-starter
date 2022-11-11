@@ -5,6 +5,8 @@ Terraform Starter Project using Terraform Cloud and the Databricks provider
 Demonstrate a simple provider to add one team's workload to an existing workspace using Terraform cloud
 
 ## Terraform Cloud setup and build
+Terraform Cloud or Terraform Enterprise Cloud is recommended for maintainence of production environments.
+
 1. Fork this repository
 2. Sign in or signup at https://www.terraform.io/
     -  Select "Version control workflow"
