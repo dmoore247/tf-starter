@@ -1,8 +1,11 @@
 # tf-starter
 Terraform Starter Project using Terraform Cloud and the Databricks provider
 
-## Purpose
+## Overview
 Demonstrate a simple provider to add one team's workload to an existing workspace using Terraform cloud
+
+Watch now:
+[![Terraform Starter Project using Terraform Cloud and the Databricks provider Demo](https://img.youtube.com/vi/LZkbvQE2fpI/0.jpg)](https://www.youtube.com/watch?v=LZkbvQE2fpI)
 
 ## Terraform Cloud setup and build
 Terraform Cloud or Terraform Enterprise Cloud is recommended for maintainence of production environments.
