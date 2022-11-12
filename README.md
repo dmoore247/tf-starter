@@ -39,8 +39,11 @@ Terraform Cloud or Terraform Enterprise Cloud is recommended for maintainence of
 1. Fork this repository
 2. git clone `<cloned repo>`
 3. Remove `terraform-cloud.tf`
-4. Run `terraform plan`
-5. Review output of planning phase
-6. Run `terraform apply`
-7. Commit changes
-8. Push changes to GitHub
+4. Set env variables
+    - `EXPORT DATABRICKS_HOST=<your workspace URL>`
+    - `EXPORT DATABRICKS_TOKEN=<your personal access token>`
+5. Run `terraform plan`
+0. Review output of planning phase
+0. Run `terraform apply`
+0. Commit changes
+0. Push changes to GitHub
