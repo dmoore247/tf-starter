@@ -38,13 +38,15 @@ Terraform Cloud or Terraform Enterprise Cloud is recommended for maintainence of
 
 
 ## Terraform command line setup and build
+The Terraform state file will remain on your machine
+
 1. Fork this repository
 2. git clone `<cloned repo>`
-3. Remove `terraform-cloud.tf`
 4. Set env variables
     - `EXPORT DATABRICKS_HOST=<your workspace URL>`
     - `EXPORT DATABRICKS_TOKEN=<your personal access token>`
-5. Run `terraform plan`
+5. Run `terraform init` # first time only
+0. Run `terraform plan`
 0. Review output of planning phase
 0. Run `terraform apply`
 0. Commit changes
