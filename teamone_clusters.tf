@@ -18,7 +18,7 @@ resource "databricks_cluster" "shared_autoscaling" {
      zone_id    = "auto"
   }
   
-  autotermination_minutes = 20
+  autotermination_minutes = 30
   autoscale {
     min_workers = 1
     max_workers = 10
