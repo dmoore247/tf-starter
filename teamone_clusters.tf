@@ -14,10 +14,6 @@ resource "databricks_cluster" "shared_autoscaling" {
   spark_version           = data.databricks_spark_version.latest_lts.id
   node_type_id            = data.databricks_node_type.interactive_node.id
   
-  aws_attributes {
-     zone_id    = "auto"
-  }
-  
   autotermination_minutes = 20
   autoscale {
     min_workers = 1
