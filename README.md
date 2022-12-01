@@ -1,5 +1,5 @@
 # tf-starter
-Terraform Starter Project using Terraform Cloud and the Databricks provider
+10 minutes to your first automated cluster and Databricks infrastructure as code using Terraform Cloud.
 
 ## Overview
 Demonstrate a simple provider to add one team's workload to an existing workspace using Terraform cloud
